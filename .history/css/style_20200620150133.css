@@ -486,7 +486,11 @@ header {
 
 /* Extra */
 
-#portfolio__img1 {
-  width: 100%;
-  height: 100%;
+.portfolio__item1 {
+  display: flex;
+  justify-content: center;
+}
+
+.portfolio__img1 {
+  object-fit: contain;
 }
