@@ -495,7 +495,4 @@ header {
   #portfolio__img2 {
     transform: scale(1.1) translate(-10px, 15px)
   }
-  #quiz-code-img {
-    margin: 0 auto;
-  }
 }
