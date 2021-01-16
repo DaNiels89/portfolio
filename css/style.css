@@ -150,6 +150,19 @@ header {
   max-width: 100px;
 }
 
+.home__link {
+  color: var(--clr-accent);
+  font-weight: var(--fw-bold);
+  text-decoration: none;
+  transition: all 0.2s ease-in-out;
+}
+
+.home__link:hover,
+.home__link:focus {
+  color: var(--clr-dark);
+  font-weight: var(--fw-bold);
+}
+
 .nav {
   position: fixed;
   background: var(--clr-dark);
