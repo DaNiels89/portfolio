@@ -11,5 +11,4 @@ window.addEventListener('load', (event) => {
       document.body.classList.remove('nav-open');
     });
   });
-  console.log('page is fully loaded');
 });

@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<link rel="stylesheet" href="normalize.css" />
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<title>Nislo Portfolio Website</title>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css" />
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css"
+		integrity="sha256-46qynGAkLSFpVbEBog43gvNhfrOj+BmwXdxFgVK/Kvc=" crossorigin="anonymous" />
+
+	<link href="https://fonts.googleapis.com/css?family=Source+Code+Pro:400,900|Source+Sans+Pro:300,900&display=swap"
+		rel="stylesheet" />
+
+	<link rel="stylesheet" href="css/style.css" />
+
+	<link rel="apple-touch-icon" sizes="180x180" href="/assets/icons/apple-touch-icon.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="/assets/icons/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="/assets/icons/favicon-16x16.png">
+	<link rel="manifest" href="/assets/icons/site.webmanifest">
+	<link rel="mask-icon" href="/assets/icons/safari-pinned-tab.svg" color="#5bbad5">
+	<link rel="shortcut icon" href="/assets/icons/favicon.ico">
+	<meta name="msapplication-TileColor" content="#da532c">
+	<meta name="msapplication-config" content="/assets/icons/browserconfig.xml">
+	<meta name="theme-color" content="#ffffff">
+
+	<script src="js/reuseableHeader.js"></script>
+	<script src="js/reusableFooter.js" defer></script>
+	<script src="js/index.js" defer></script>
+
+	<!-- Global site tag (gtag.js) - Google Analytics -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=G-30EHH3VCF2"></script>
+	<script>
+		window.dataLayer = window.dataLayer || [];
+		function gtag() { dataLayer.push(arguments); }
+		gtag('js', new Date())
+
+		gtag('config', 'G-30EHH3VCF2');
+	</script>
+</head>
+
+<body>
+	<main-header></main-header>
+
+	<main class="main-not-found">
+		<div class="main-div-not-found">
+			<h1>Nislo message:</h1>
+			<h3 class="h3-not-found">Oops, this page doesn't exist</h3>
+			<p>You can go to the home page or go back by clicking the below buttons. Or you could found out more about my hobbies! Up to you!</p>
+			<form class="form-not-found">
+				<a href="/" class="btn" title="Go to the homepage from nislo.nl">Home page</a>
+				<input type="button" value="Go back!" class="btn" onclick="history.back()">
+			</form>
+			<p>I've been practicing this solo from John Frusciante (Red Hot Chili Peppers) for ages, still got a long way to go to nail this one! John if you see this, I'm open for a training session with you!</p>
+			<div class="embed-youtube">
+				<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/Z0AXjUy1_gY?start=316" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+			</div>
+			<p>One day I hope to see Magnus Carlsen replying to my chess moves like you will see in this video. Magnus, if you have some spare time I would love to play a chess game with you! </p>
+			<div class="embed-youtube">
+				<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/7txJneYewpI?start=196" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+			</div>
+			<p>To get a little bit better in my tennis game I would like to train with this guy. Let me know when you're free Roger!</p>
+			<div class="embed-youtube">
+				<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/QvTA3VrPkzs?start=399" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+			</div>
+			<form class="form-not-found">
+				<a href="/" class="btn" title="Go to the homepage from nislo.nl">Home page</a>
+				<input type="button" value="Go back!" class="btn" onclick="history.back()">
+			</form>
+		</div>	
+	</main>
+
+	<main-footer></main-footer>
+</body>
+
+</html>
