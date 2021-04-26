@@ -12,3 +12,13 @@ ErrorDocument 404 https://nislo.nl/page-not-found.html
 order allow,deny
 deny from all
 </Files>
+
+<ifModule mod_headers.c>
+Header set Strict-Transport-Security "max-age=31536000" env=HTTPS
+Header set X-XSS-Protection "1; mode=block"
+Header set X-Content-Type-Options nosniff
+Header set X-Frame-Options DENY
+Header set Referrer-Policy: no-referrer-when-downgrade
+#Header always set Content-Security-Policy "default-src 'self'; font-src *;img-src * data:; script-src *; style-src *;"
+Header always set Permissions-Policy "geolocation=(),midi=(),sync-xhr=(),microphone=(),camera=(),magnetometer=(),gyroscope=(),fullscreen=(self),payment=()"
+</ifModule>

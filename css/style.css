@@ -828,3 +828,9 @@ header {
 		margin: 0 auto;
 	}
 }
+
+@media (max-width: 480px) {
+	.intro__img {
+		display: inline;
+	}
+}
