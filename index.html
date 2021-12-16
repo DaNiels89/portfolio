@@ -4,23 +4,23 @@
 		<meta charset="UTF-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 		<meta name="Description" content="Nislo.nl creates beautiful WordPress websites, but also custom made websites. Go to my website to learn more!">
+    <meta name="theme-color" content="#efc927">
 		<title>Nislo Portfolio Website</title>
-		<link rel="stylesheet" href="css/style.min.css" />
 		<link
-			rel="preload"
-			as="style"
+			rel="stylesheet"
 			href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css"
 			integrity="sha256-46qynGAkLSFpVbEBog43gvNhfrOj+BmwXdxFgVK/Kvc="
 			crossorigin="anonymous"
-		/>
-
-		<link
-			rel="preload"
-			href="https://fonts.googleapis.com/css?family=Source+Code+Pro:400,900|Source+Sans+Pro:300,900&display=swap"
-			rel="stylesheet"
-		/>		
+    />
+      
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@400;900&family=Source+Sans+Pro:wght@300;900&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="css/style.min.css" />
 
 		<link rel="apple-touch-icon" sizes="180x180" href="/assets/icons/apple-touch-icon.png">
+    <link rel="icon" type="image/svg+xml" href="/assets/icons/niels1.svg">
 		<link rel="icon" type="image/png" sizes="32x32" href="/assets/icons/favicon-32x32.png">
 		<link rel="icon" type="image/png" sizes="16x16" href="/assets/icons/favicon-16x16.png">
 		<link rel="manifest" href="/assets/icons/site.webmanifest">
@@ -29,19 +29,6 @@
 		<meta name="msapplication-TileColor" content="#da532c">
 		<meta name="msapplication-config" content="/assets/icons/browserconfig.xml">
 		<meta name="theme-color" content="#ffffff">
-
-		<link
-			rel="preload"
-			as="image"
-			href="img/niels1.jpg"
-			imagesizes="25vw"
-		/>
-		<link
-			rel="preload"
-			as="image"
-			href="img/niels2.jpg"
-			imagesizes="25vw"
-		/>
 
 		<script>document.documentElement.classList.remove("no-js");</script>
 		<script src="js/modernizr.js" defer></script>
@@ -64,11 +51,11 @@
 				<!-- TODO: Update logo -->
 				<!-- <img src="img/nislo.png" alt="" /> -->
 			</div>
-			<button class="nav-toggle" aria-label="toggle navigation">
+			<button class="nav-toggle" aria-label="toggle navigation" aria-controls="nav__list">
 				<span class="hamburger"></span>
 			</button>
 			<nav class="nav">
-				<ul class="nav__list">
+				<ul id="nav__list" class="nav__list">
 					<li class="nav__item"><a href="#home" class="nav__link">Home</a></li>
 					<li class="nav__item">
 						<a href="#services" class="nav__link">My Services</a>
@@ -92,7 +79,8 @@
 				Front-End Developer
 			</p>
 			<picture class="intro__img">
-				<source srcset="img/niels1.webp" type="image/webp" >
+        <source srcset="img/niels1.avif" type="image/avif">
+				<source srcset="img/niels1.webp" type="image/webp">
 				<source srcset="img/niels1.jpg" type="image/jpeg"> 
 				<img
 					src="img/niels1.jpg"
@@ -114,7 +102,7 @@
 					<p>
 						I design and bring unique websites ideas to life with languages such
 						as HTML, CSS and JavaScript and with development tools such as
-						Bootstrap, Bulma, Materialize, WordPress and React.
+						Bootstrap, Tailwind, and WordPress.
 					</p>
 				</div>
 				<!-- / service -->
@@ -168,7 +156,8 @@
 			</div>
 
 			<picture class="about-me__img">
-				<source srcset="img/niels2.webp" type="image/webp" >
+        <source srcset="img/niels2.avif" type="image/avif">
+				<source srcset="img/niels2.webp" type="image/webp">
 				<source srcset="img/niels2.jpg" type="image/jpeg"> 
 				<img
 					src="img/niels2.jpg"
