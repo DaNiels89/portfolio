@@ -1,410 +1,303 @@
 <!DOCTYPE html>
 <html lang="en" class="no-js">
-	<head>
-		<!-- Google Tag Manager -->
-		<script>
-			(function (w, d, s, l, i) {
-				w[l] = w[l] || [];
-				w[l].push({ "gtm.start": new Date().getTime(), event: "gtm.js" });
-				var f = d.getElementsByTagName(s)[0],
-					j = d.createElement(s),
-					dl = l != "dataLayer" ? "&l=" + l : "";
-				j.async = true;
-				j.src = "https://www.googletagmanager.com/gtm.js?id=" + i + dl;
-				f.parentNode.insertBefore(j, f);
-			})(window, document, "script", "dataLayer", "GTM-5T4CG5X");
-		</script>
-		<!-- End Google Tag Manager -->
-		<meta charset="UTF-8">
-		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-		<meta
-			name="Description"
-			content="Nislo.nl creates beautiful WordPress websites, but also custom made websites. Go to my website to learn more!"
-		>
-		<meta name="theme-color" content="#efc927">
-		<title>Nislo Portfolio Website</title>
-		<link
-			rel="stylesheet"
-			href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css"
-			integrity="sha256-46qynGAkLSFpVbEBog43gvNhfrOj+BmwXdxFgVK/Kvc="
-			crossorigin="anonymous"
-		>
 
-		<link rel="preconnect" href="https://fonts.googleapis.com">
-		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-		<link
-			href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@400;900&family=Source+Sans+Pro:wght@300;900&display=swap"
-			rel="stylesheet"
-		>
+<head>
+  <!-- Google Tag Manager -->
+  <script>
+    (function (w, d, s, l, i) {
+      w[l] = w[l] || [];
+      w[l].push({ "gtm.start": new Date().getTime(), event: "gtm.js" });
+      var f = d.getElementsByTagName(s)[0],
+        j = d.createElement(s),
+        dl = l != "dataLayer" ? "&l=" + l : "";
+      j.async = true;
+      j.src = "https://www.googletagmanager.com/gtm.js?id=" + i + dl;
+      f.parentNode.insertBefore(j, f);
+    })(window, document, "script", "dataLayer", "GTM-5T4CG5X");
+  </script>
+  <!-- End Google Tag Manager -->
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="Description"
+    content="Nislo.nl creates beautiful WordPress websites, but also custom made websites. Go to my website to learn more!">
+  <meta name="theme-color" content="#efc927">
+  <title>Nislo Portfolio Website</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css"
+    integrity="sha256-46qynGAkLSFpVbEBog43gvNhfrOj+BmwXdxFgVK/Kvc=" crossorigin="anonymous">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@400;900&family=Source+Sans+Pro:wght@300;900&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="css/style.min.css">
+  <link rel="apple-touch-icon" sizes="180x180" href="/assets/icons/apple-touch-icon.png">
+  <link rel="icon" type="image/svg+xml" href="/assets/icons/niels1.svg">
+  <link rel="icon" type="image/png" sizes="32x32" href="/assets/icons/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/assets/icons/favicon-16x16.png">
+  <link rel="manifest" href="/assets/icons/site.webmanifest">
+  <link rel="mask-icon" href="/assets/icons/safari-pinned-tab.svg" color="#5bbad5">
+  <link rel="shortcut icon" href="/assets/icons/favicon.ico">
+  <meta name="msapplication-TileColor" content="#da532c">
+  <meta name="msapplication-config" content="/assets/icons/browserconfig.xml">
+  <meta name="theme-color" content="#ffffff">
 
-		<link rel="stylesheet" href="css/style.min.css">
+  <script>
+    document.documentElement.classList.remove("no-js");
+  </script>
+  <script src="js/modernizr.js" defer></script>
+  <script src="js/reusableFooter.js" defer></script>
+  <script src="js/index.js" defer></script>
 
-		<link
-			rel="apple-touch-icon"
-			sizes="180x180"
-			href="/assets/icons/apple-touch-icon.png"
-		>
-		<link rel="icon" type="image/svg+xml" href="/assets/icons/niels1.svg">
-		<link
-			rel="icon"
-			type="image/png"
-			sizes="32x32"
-			href="/assets/icons/favicon-32x32.png"
-		>
-		<link
-			rel="icon"
-			type="image/png"
-			sizes="16x16"
-			href="/assets/icons/favicon-16x16.png"
-		>
-		<link rel="manifest" href="/assets/icons/site.webmanifest">
-		<link
-			rel="mask-icon"
-			href="/assets/icons/safari-pinned-tab.svg"
-			color="#5bbad5"
-		>
-		<link rel="shortcut icon" href="/assets/icons/favicon.ico">
-		<meta name="msapplication-TileColor" content="#da532c">
-		<meta
-			name="msapplication-config"
-			content="/assets/icons/browserconfig.xml"
-		>
-		<meta name="theme-color" content="#ffffff">
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-30EHH3VCF2"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() {
+      dataLayer.push(arguments);
+    }
+    gtag("js", new Date());
 
-		<script>
-			document.documentElement.classList.remove("no-js");
-		</script>
-		<script src="js/modernizr.js" defer></script>
-		<script src="js/reusableFooter.js" defer></script>
-		<script src="js/index.js" defer></script>
+    gtag("config", "G-30EHH3VCF2");
+  </script>
+</head>
 
-		<!-- Global site tag (gtag.js) - Google Analytics -->
-		<script
-			async
-			src="https://www.googletagmanager.com/gtag/js?id=G-30EHH3VCF2"
-		></script>
-		<script>
-			window.dataLayer = window.dataLayer || [];
-			function gtag() {
-				dataLayer.push(arguments);
-			}
-			gtag("js", new Date());
+<body>
+  <!-- Google Tag Manager (noscript) -->
+  <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-5T4CG5X" height="0" width="0"
+      style="display: none; visibility: hidden"></iframe></noscript>
+  <!-- End Google Tag Manager (noscript) -->
+  <header class="header">
+    <div class="logo">
+      <!-- TODO: Update logo -->
+      <!-- <img src="img/nislo.png" al> -->
+    </div>
+    <button class="nav-toggle" aria-label="toggle navigation" aria-controls="nav__list">
+      <span class="hamburger"></span>
+    </button>
+    <nav class="nav" aria-label="primary navigation">
+      <ul id="nav__list" class="nav__list">
+        <li class="nav__item"><a href="#home" class="nav__link">Home</a></li>
+        <li class="nav__item">
+          <a href="#services" class="nav__link">My Services</a>
+        </li>
+        <li class="nav__item">
+          <a href="#about" class="nav__link">About me</a>
+        </li>
+        <li class="nav__item">
+          <a href="#work" class="nav__link">My Work</a>
+        </li>
+      </ul>
+    </nav>
+  </header>
 
-			gtag("config", "G-30EHH3VCF2");
-		</script>
-	</head>
-	<body>
-		<!-- Google Tag Manager (noscript) -->
-		<noscript
-			><iframe
-				src="https://www.googletagmanager.com/ns.html?id=GTM-5T4CG5X"
-				height="0"
-				width="0"
-				style="display: none; visibility: hidden"
-			></iframe
-		></noscript>
-		<!-- End Google Tag Manager (noscript) -->
-		<header class="header">
-			<div class="logo">
-				<!-- TODO: Update logo -->
-				<!-- <img src="img/nislo.png" al> -->
-			</div>
-			<button
-				class="nav-toggle"
-				aria-label="toggle navigation"
-				aria-controls="nav__list"
-			>
-				<span class="hamburger"></span>
-			</button>
-			<nav class="nav" aria-label="primary navigation">
-				<ul id="nav__list" class="nav__list">
-					<li class="nav__item"><a href="#home" class="nav__link">Home</a></li>
-					<li class="nav__item">
-						<a href="#services" class="nav__link">My Services</a>
-					</li>
-					<li class="nav__item">
-						<a href="#about" class="nav__link">About me</a>
-					</li>
-					<li class="nav__item">
-						<a href="#work" class="nav__link">My Work</a>
-					</li>
-				</ul>
-			</nav>
-		</header>
+  <main class="main">
+    <!-- Introduction -->
+    <section class="intro" id="home">
+      <h1 class="section__title section__title--intro">
+        Hi, I am <strong>Niels Sloesen</strong>
+      </h1>
+      <p class="section__subtitle section__subtitle--intro">
+        Front-End Developer
+      </p>
+      <picture class="intro__img">
+        <source srcset="img/niels1.avif" type="image/avif">
+        <source srcset="img/niels1.webp" type="image/webp">
+        <source srcset="img/niels1.jpg" type="image/jpeg">
+        <img src="img/niels1.jpg" width="250" height="250" class="intro__img"
+          alt="A picture of Niels Sloesen in Hoi An, Vietnam, South East Asia"
+          title="A picture of Niels Sloesen in Hoi An, Vietnam, South East Asia">
+      </picture>
+    </section>
 
-		<main class="main">
-			<!-- Introduction -->
-			<section class="intro" id="home">
-				<h1 class="section__title section__title--intro">
-					Hi, I am <strong>Niels Sloesen</strong>
-				</h1>
-				<p class="section__subtitle section__subtitle--intro">
-					Front-End Developer
-				</p>
-				<picture class="intro__img">
-					<source srcset="img/niels1.avif" type="image/avif">
-					<source srcset="img/niels1.webp" type="image/webp">
-					<source srcset="img/niels1.jpg" type="image/jpeg">
-					<img
-						src="img/niels1.jpg"
-						width="250"
-						height="250"
-						class="intro__img"
-						alt="A picture of Niels Sloesen in Hoi An, Vietnam, South East Asia"
-						title="A picture of Niels Sloesen in Hoi An, Vietnam, South East Asia"
-					>
-				</picture>
-			</section>
+    <!-- My services -->
+    <section class="my-services" id="services">
+      <h2 class="section__title section__title--services">What Can I do</h2>
+      <div class="services">
+        <div class="service">
+          <h3>Front-End Development</h3>
+          <p>
+            I design and bring unique websites ideas to life with languages
+            such as HTML, CSS and JavaScript and with development tools such
+            as Bootstrap, Tailwind, and WordPress.
+          </p>
+        </div>
+        <!-- / service -->
 
-			<!-- My services -->
-			<section class="my-services" id="services">
-				<h2 class="section__title section__title--services">What Can I do</h2>
-				<div class="services">
-					<div class="service">
-						<h3>Front-End Development</h3>
-						<p>
-							I design and bring unique websites ideas to life with languages
-							such as HTML, CSS and JavaScript and with development tools such
-							as Bootstrap, Tailwind, and WordPress.
-						</p>
-					</div>
-					<!-- / service -->
+        <div class="service">
+          <h3>WordPress</h3>
+          <p>
+            Besides setting up and configuring a WordPress website for your
+            business, I can also design and adjust various themes and plugins
+            for your WordPress website to ensure that it addresses all your
+            business needs. I can also assist in web traffic and web
+            performance tracking to provide you with an understanding of your
+            users.
+          </p>
+        </div>
+        <!-- / service -->
 
-					<div class="service">
-						<h3>WordPress</h3>
-						<p>
-							Besides setting up and configuring a WordPress website for your
-							business, I can also design and adjust various themes and plugins
-							for your WordPress website to ensure that it addresses all your
-							business needs. I can also assist in web traffic and web
-							performance tracking to provide you with an understanding of your
-							users.
-						</p>
-					</div>
-					<!-- / service -->
+        <div class="service">
+          <h3>E-Commerce</h3>
+          <p>
+            E-commerce may seem like a challenging and complex thing to
+            navigate but fret not, I will set up for you a web shop using
+            various platforms such as WordPress, Magento or Shopify and you
+            will be able to market your product in no time.
+          </p>
+        </div>
+        <!-- / service -->
+      </div>
+      <!-- / services -->
 
-					<div class="service">
-						<h3>E-Commerce</h3>
-						<p>
-							E-commerce may seem like a challenging and complex thing to
-							navigate but fret not, I will set up for you a web shop using
-							various platforms such as WordPress, Magento or Shopify and you
-							will be able to market your product in no time.
-						</p>
-					</div>
-					<!-- / service -->
-				</div>
-				<!-- / services -->
+      <a href="#work" class="btn">My Work</a>
+    </section>
 
-				<a href="#work" class="btn">My Work</a>
-			</section>
+    <!-- About me -->
+    <section class="about-me" id="about">
+      <h2 class="section__title section__title--about">Who Am I</h2>
+      <p class="section__subtitle section__subtitle--about">
+        Front-end developer from the Netherlands
+      </p>
 
-			<!-- About me -->
-			<section class="about-me" id="about">
-				<h2 class="section__title section__title--about">Who Am I</h2>
-				<p class="section__subtitle section__subtitle--about">
-					Front-end developer from the Netherlands
-				</p>
+      <div class="about-me__body">
+        <p>
+          I am a technically savvy, enthusiastic and adventures self-taught
+          front-end software engineer whom comes from the Netherlands but has
+          worked remotely on various projects. My first break into the world
+          of web development started from the
+          <a href="https://www.bogotabootcamp.com/" class="" title="Bogota Bootcamp" target="_blank"
+            rel="nofollow noopener noreferrer">Bogota Bootcamp</a>, which I completed in Colombia. Upon the completion
+          of the
+          bootcamp, I was awarded an internship with the company, and have
+          been doing freelance projects for various clients.
+        </p>
+      </div>
 
-				<div class="about-me__body">
-					<p>
-						I am a technically savvy, enthusiastic and adventures self-taught
-						front-end software engineer whom comes from the Netherlands but has
-						worked remotely on various projects. My first break into the world
-						of web development started from the
-						<a
-							href="https://www.bogotabootcamp.com/"
-							class=""
-							title="Bogota Bootcamp"
-							target="_blank"
-							rel="nofollow noopener noreferrer"
-							>Bogota Bootcamp</a
-						>, which I completed in Colombia. Upon the completion of the
-						bootcamp, I was awarded an internship with the company, and have
-						been doing freelance projects for various clients.
-					</p>
-				</div>
+      <picture class="about-me__img">
+        <source srcset="img/niels2.avif" type="image/avif">
+        <source srcset="img/niels2.webp" type="image/webp">
+        <source srcset="img/niels2.jpg" type="image/jpeg">
+        <img src="img/niels2.jpg" width="200" height="250" class="about-me__img"
+          alt="Niels Sloesen leaning against a shelve in Hoi An, Vietnam, South East Asia"
+          title="Niels Sloesen leaning against a shelve in Hoi An, Vietnam, South East Asia" loading="lazy">
+      </picture>
+    </section>
 
-				<picture class="about-me__img">
-					<source srcset="img/niels2.avif" type="image/avif">
-					<source srcset="img/niels2.webp" type="image/webp">
-					<source srcset="img/niels2.jpg" type="image/jpeg">
-					<img
-						src="img/niels2.jpg"
-						width="200"
-						height="250"
-						class="about-me__img"
-						alt="Niels Sloesen leaning against a shelve in Hoi An, Vietnam, South East Asia"
-						title="Niels Sloesen leaning against a shelve in Hoi An, Vietnam, South East Asia"
-						loading="lazy"
-					>
-				</picture>
-			</section>
+    <!-- My Work -->
+    <section class="my-work" id="work">
+      <h2 class="section__title section__title--work">My work</h2>
+      <p class="section__subtitle section__subtitle--work">
+        A selection of my range of work
+      </p>
 
-			<!-- My Work -->
-			<section class="my-work" id="work">
-				<h2 class="section__title section__title--work">My work</h2>
-				<p class="section__subtitle section__subtitle--work">
-					A selection of my range of work
-				</p>
+      <div class="portfolio">
+        <!-- Portfolio item 01 -->
+        <a href="portfolio-item-01" class="portfolio__item">
+          <picture class="portfolio__img">
+            <source srcset="img/portfolio-01.webp" type="image/webp">
+            <source srcset="img/portfolio-01.jpg" type="image/jpeg">
+            <img src="img/portfolio-01.jpg" class="portfolio__img" alt="Portfolio project 1 Nislo.nl"
+              title="Portfolio project 1 Nislo.nl" loading="lazy">
+          </picture>
+        </a>
 
-				<div class="portfolio">
-					<!-- Portfolio item 01 -->
-					<a href="portfolio-item-01" class="portfolio__item">
-						<picture class="portfolio__img">
-							<source srcset="img/portfolio-01.webp" type="image/webp">
-							<source srcset="img/portfolio-01.jpg" type="image/jpeg">
-							<img
-								src="img/portfolio-01.jpg"
-								class="portfolio__img"
-								alt="Portfolio project 1 Nislo.nl"
-								title="Portfolio project 1 Nislo.nl"
-								loading="lazy"
-							>
-						</picture>
-					</a>
+        <!-- Portfolio item 02 -->
+        <a href="portfolio-item-02" class="portfolio__item">
+          <picture class="portfolio__img">
+            <source srcset="img/portfolio-02.webp" type="image/webp">
+            <source srcset="img/portfolio-02.jpg" type="image/jpeg">
+            <img src="img/portfolio-02.jpg" class="portfolio__img" alt="Portfolio project 2 Nislo.nl"
+              title="Portfolio project 2 Nislo.nl" loading="lazy">
+          </picture>
+        </a>
 
-					<!-- Portfolio item 02 -->
-					<a href="portfolio-item-02" class="portfolio__item">
-						<picture class="portfolio__img">
-							<source srcset="img/portfolio-02.webp" type="image/webp">
-							<source srcset="img/portfolio-02.jpg" type="image/jpeg">
-							<img
-								src="img/portfolio-02.jpg"
-								class="portfolio__img"
-								alt="Portfolio project 2 Nislo.nl"
-								title="Portfolio project 2 Nislo.nl"
-								loading="lazy"
-							>
-						</picture>
-					</a>
+        <!-- Portfolio item 03 -->
+        <a href="portfolio-item-03" class="portfolio__item">
+          <picture class="portfolio__img">
+            <source srcset="img/portfolio-03.webp" type="image/webp">
+            <source srcset="img/portfolio-03.jpg" type="image/jpeg">
+            <img src="img/portfolio-03.jpg" class="portfolio__img" alt="Portfolio project 3 Nislo.nl"
+              title="Portfolio project 3 Nislo.nl" loading="lazy">
+          </picture>
+        </a>
 
-					<!-- Portfolio item 03 -->
-					<a href="portfolio-item-03" class="portfolio__item">
-						<picture class="portfolio__img">
-							<source srcset="img/portfolio-03.webp" type="image/webp">
-							<source srcset="img/portfolio-03.jpg" type="image/jpeg">
-							<img
-								src="img/portfolio-03.jpg"
-								class="portfolio__img"
-								alt="Portfolio project 3 Nislo.nl"
-								title="Portfolio project 3 Nislo.nl"
-								loading="lazy"
-							>
-						</picture>
-					</a>
+        <!-- Portfolio item 04 -->
+        <a href="portfolio-item-04" class="portfolio__item">
+          <picture class="portfolio__img">
+            <source srcset="img/portfolio-04.webp" type="image/webp">
+            <source srcset="img/portfolio-04.jpg" type="image/jpeg">
+            <img src="img/portfolio-04.jpg" class="portfolio__img" alt="Portfolio project 4 Nislo.nl"
+              title="Portfolio project 4 Nislo.nl" loading="lazy">
+          </picture>
+        </a>
 
-					<!-- Portfolio item 04 -->
-					<a href="portfolio-item-04" class="portfolio__item">
-						<picture class="portfolio__img">
-							<source srcset="img/portfolio-04.webp" type="image/webp">
-							<source srcset="img/portfolio-04.jpg" type="image/jpeg">
-							<img
-								src="img/portfolio-04.jpg"
-								class="portfolio__img"
-								alt="Portfolio project 4 Nislo.nl"
-								title="Portfolio project 4 Nislo.nl"
-								loading="lazy"
-							>
-						</picture>
-					</a>
+        <!-- Portfolio item 05 -->
+        <a href="portfolio-item-05" class="portfolio__item">
+          <picture class="portfolio__img">
+            <source srcset="img/portfolio-05.webp" type="image/webp">
+            <source srcset="img/portfolio-05.jpg" type="image/jpeg">
+            <img src="img/portfolio-05.jpg" class="portfolio__img" alt="Portfolio project 5 Nislo.nl"
+              title="Portfolio project 5 Nislo.nl" loading="lazy">
+          </picture>
+        </a>
 
-					<!-- Portfolio item 05 -->
-					<a href="portfolio-item-05" class="portfolio__item">
-						<picture class="portfolio__img">
-							<source srcset="img/portfolio-05.webp" type="image/webp">
-							<source srcset="img/portfolio-05.jpg" type="image/jpeg">
-							<img
-								src="img/portfolio-05.jpg"
-								class="portfolio__img"
-								alt="Portfolio project 5 Nislo.nl"
-								title="Portfolio project 5 Nislo.nl"
-								loading="lazy"
-							>
-						</picture>
-					</a>
+        <!-- Portfolio item 06 -->
+        <a href="portfolio-item-06" class="portfolio__item">
+          <picture class="portfolio__img">
+            <source srcset="img/portfolio-06.webp" type="image/webp">
+            <source srcset="img/portfolio-06.jpg" type="image/jpeg">
+            <img src="img/portfolio-06.jpg" class="portfolio__img" alt="Portfolio project 6 Nislo.nl"
+              title="Portfolio project 6 Nislo.nl" loading="lazy">
+          </picture>
+        </a>
 
-					<!-- Portfolio item 06 -->
-					<a href="portfolio-item-06" class="portfolio__item">
-						<picture class="portfolio__img">
-							<source srcset="img/portfolio-06.webp" type="image/webp">
-							<source srcset="img/portfolio-06.jpg" type="image/jpeg">
-							<img
-								src="img/portfolio-06.jpg"
-								class="portfolio__img"
-								alt="Portfolio project 6 Nislo.nl"
-								title="Portfolio project 6 Nislo.nl"
-								loading="lazy"
-							>
-						</picture>
-					</a>
+        <!-- Portfolio item 07 -->
+        <a href="portfolio-item-07" class="portfolio__item">
+          <picture class="portfolio__img">
+            <source srcset="img/portfolio-07.webp" type="image/webp">
+            <source srcset="img/portfolio-07.jpg" type="image/jpeg">
+            <img src="img/portfolio-07.jpg" class="portfolio__img" alt="Portfolio project 7 Nislo.nl"
+              title="Portfolio project 7 Nislo.nl" loading="lazy">
+          </picture>
+        </a>
 
-					<!-- Portfolio item 07 -->
-					<a href="portfolio-item-07" class="portfolio__item">
-						<picture class="portfolio__img">
-							<source srcset="img/portfolio-07.webp" type="image/webp">
-							<source srcset="img/portfolio-07.jpg" type="image/jpeg">
-							<img
-								src="img/portfolio-07.jpg"
-								class="portfolio__img"
-								alt="Portfolio project 7 Nislo.nl"
-								title="Portfolio project 7 Nislo.nl"
-								loading="lazy"
-							>
-						</picture>
-					</a>
+        <!-- Portfolio item 08 -->
+        <a href="portfolio-item-08" class="portfolio__item">
+          <picture class="portfolio__img">
+            <source srcset="img/portfolio-08.webp" type="image/webp">
+            <source srcset="img/portfolio-08.jpg" type="image/jpeg">
+            <img src="img/portfolio-08.jpg" class="portfolio__img" alt="Portfolio project 8 Nislo.nl"
+              title="Portfolio project 8 Nislo.nl" loading="lazy">
+          </picture>
+        </a>
 
-					<!-- Portfolio item 08 -->
-					<a href="portfolio-item-08" class="portfolio__item">
-						<picture class="portfolio__img">
-							<source srcset="img/portfolio-08.webp" type="image/webp">
-							<source srcset="img/portfolio-08.jpg" type="image/jpeg">
-							<img
-								src="img/portfolio-08.jpg"
-								class="portfolio__img"
-								alt="Portfolio project 8 Nislo.nl"
-								title="Portfolio project 8 Nislo.nl"
-								loading="lazy"
-							>
-						</picture>
-					</a>
+        <!-- Portfolio item 09 -->
+        <a href="portfolio-item-09" class="portfolio__item">
+          <picture class="portfolio__img">
+            <source srcset="img/portfolio-09.webp" type="image/webp">
+            <source srcset="img/portfolio-09.jpg" type="image/jpeg">
+            <img src="img/portfolio-09.jpg" class="portfolio__img" alt="Portfolio project 9 Nislo.nl"
+              title="Portfolio project 9 Nislo.nl" loading="lazy">
+          </picture>
+        </a>
 
-					<!-- Portfolio item 09 -->
-					<a href="portfolio-item-09" class="portfolio__item">
-						<picture class="portfolio__img">
-							<source srcset="img/portfolio-09.webp" type="image/webp">
-							<source srcset="img/portfolio-09.jpg" type="image/jpeg">
-							<img
-								src="img/portfolio-09.jpg"
-								class="portfolio__img"
-								alt="Portfolio project 9 Nislo.nl"
-								title="Portfolio project 9 Nislo.nl"
-								loading="lazy"
-							>
-						</picture>
-					</a>
+        <!-- Portfolio item 10-->
+        <a href="portfolio-item-10" class="portfolio__item">
+          <picture class="portfolio__img">
+            <source srcset="img/portfolio-10.webp" type="image/webp">
+            <source srcset="img/portfolio-10.jpg" type="image/jpeg">
+            <img src="img/portfolio-10.jpg" class="portfolio__img" alt="Portfolio project 10 Nislo.nl"
+              title="Portfolio project 10 Nislo.nl" loading="lazy">
+          </picture>
+        </a>
+      </div>
+    </section>
+  </main>
 
-					<!-- Portfolio item 10-->
-					<a href="portfolio-item-10" class="portfolio__item">
-						<picture class="portfolio__img">
-							<source srcset="img/portfolio-10.webp" type="image/webp">
-							<source srcset="img/portfolio-10.jpg" type="image/jpeg">
-							<img
-								src="img/portfolio-10.jpg"
-								class="portfolio__img"
-								alt="Portfolio project 10 Nislo.nl"
-								title="Portfolio project 10 Nislo.nl"
-								loading="lazy"
-							>
-						</picture>
-					</a>
-				</div>
-			</section>
-		</main>
+  <!-- Footer -->
+  <footer class="footer">
+    <main-footer></main-footer>
+  </footer>
+</body>
 
-		<!-- Footer -->
-		<footer class="footer">
-			<main-footer></main-footer>
-		</footer>
-	</body>
 </html>
